@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan Masuk"
+            android:layout_marginLeft="50dp"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:id="@+id/tvkatasambutan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="100dp">
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Login"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/btnDaftar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Daftar"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
